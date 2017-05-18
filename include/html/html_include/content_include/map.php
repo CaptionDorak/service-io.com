@@ -1,0 +1,1 @@
+<?php echo  '<div id="blog-map"></div>'?>

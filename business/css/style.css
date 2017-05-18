@@ -1,0 +1,216 @@
+@charset "utf-8";
+*{margin: 0%;padding: 0%; text-decoration: none;}
+body{
+	height: auto;
+    min-height: 100%;
+    width: auto;
+    min-width: 100%;
+    background: #f8f8f8;
+    font-family: 'Open Sans', sans-serif;
+
+}
+#wrapper{
+	height: auto;
+    min-height: 100%;
+    width: auto;
+    min-width: 100%;
+	float: left;
+}
+/* Вверх страницы */
+header{
+	height: auto;
+    max-height: 100%;
+    width: auto;
+    min-width: 100%;
+	float: left;
+}
+.left-header{
+	width: 20%;
+	height: 100%;
+	float: left;
+}
+.logo-header{
+	width: 100%;
+	height: auto;
+	min-height: 200px;
+}
+.logo-header span{
+	width: 100%;
+	height: auto;
+	min-height: 100px;
+	background: url('/include/media/image/menu.png') no-repeat;
+}
+.center-header{
+	height: 100%;
+	width:70%;
+	float: left;
+}
+.search-header{
+	min-width: 100%;
+	height: auto;
+	min-height: 200px;
+}
+.search-form{
+	width: 80%;
+	float: left;
+	height: 35px;
+	margin: 5% 0% 0% 10%;
+}
+
+#search-line{
+	min-width: 70%;
+	height: 33px;
+	border: 1px solid #000;
+	font-size: 12pt;
+ 	box-shadow: 0 0 2px 1px rgba(0,0,0,0.5);
+}
+#search-line:focus {
+     background: #ffe;
+     border: 1px solid #29B0D9; 
+   }
+#search-button{
+	width: 8%;
+	height: 35px;
+	background: #fff;
+	margin: 0% 0% 0% -0.35%;
+	padding: 0% 0% 0% 0%;
+	border: 1px solid #000;
+	 box-shadow: 0 0 2px 1px rgba(0,0,0,0.5);
+}
+#search-button:hover{cursor: pointer;}
+.rigth-header{
+	width: 10%;
+	height: 100%;
+	float: left;
+}
+.form-login{
+	width: 100%;
+	height: auto;
+	min-height: 200px;
+}
+
+.form-login button{
+	width: auto;
+	min-width: 30%;
+	height: auto;
+	min-height: 35px;
+}
+#login-button{
+	margin: 15% 0% 0% 20%;
+	background: #fff;
+	 box-shadow: 0 0 1px 0.5px rgba(0,0,0,0.5);
+}
+#login-button:hover{cursor: pointer;}
+#regin-button{
+	margin: 5% 0% 0% 10%;
+	background: #fff;
+	box-shadow: 0 0 1px 0.5px rgba(0,0,0,0.5);
+}
+#regin-button:hover{cursor: pointer;}
+#setting-button{
+	width: auto;
+	min-width: 15%;
+	height: auto;
+	min-height: 25px;
+	 background: #f8f8f8;
+}
+#setting-button a{
+	width: auto;
+	min-width: 15%;
+	height: auto;
+	min-height: 25px;
+	 background: #f8f8f8;
+}
+#logout-button{
+	background: #fff;
+	 box-shadow: 0 0 1px 0.5px rgba(0,0,0,0.5);
+	 width: auto;
+	min-width: 15%;
+	height: auto;
+	min-height: 25px;
+}
+#setting-button:hover{cursor: pointer;}
+#logout-button:hover{cursor: pointer;box-shadow: 0 0 1px 1px rgba(112, 240, 105, 1);}
+
+/* Центр страницы */
+.content{
+	list-style-type: none;
+	height: auto;
+    min-height: 100%;
+    width: auto;
+    min-width: 100%;
+	float: left;
+	padding : 0% 0% 5% 0%;
+}
+.reclame-content{
+	height: auto;
+    min-height: 100%;
+    width: 15%;
+    max-width: 15%;
+	float: left;
+	padding: 0% 0% 0% 5%;
+
+}
+.reclame-content li{
+	margin: 5% 0% 0% 0%;
+   box-shadow: 0 0 2px 2px rgba(0,0,0,1);
+}
+.reclame-content li:hover{
+  box-shadow: 0 0 1px 1px rgba(238, 255, 0, 1);
+}
+.reclame-block{
+	height: 100px;
+    max-height: 50%;
+    width: auto;
+    min-width: 50%;
+ 	background: #fff;
+}
+
+.blog-content{
+	margin: 0% 0% 0% 5%;
+	height: auto;
+    min-height: 100%;
+    min-width: 65%;
+	float: left;
+}
+.left-workshop{
+	margin: 0% 0% 1.5% 1%;
+	height: 250px;
+	min-width: 30%;
+	float: left;
+	background: #fff;
+	box-shadow: 0 0 2px 2px rgba(0,0,0,0.5);
+}
+.left-workshop:hover{
+   box-shadow: 0 0 1px 1px rgba(112, 240, 105, 1);
+}
+
+/* Низ страниц */
+footer{
+	height: auto;
+    min-height: 100%;
+    width: auto;
+    min-width: 100%;
+	float: left;
+}
+.left-footer{
+	float: left;
+	width: 50%;
+	height: auto;
+    min-height: 100%;
+}
+.rigth-footer{
+	float: left;
+	width: 50%;
+	height: auto;
+    min-height: 100%;
+}
+.logo-link{
+float: right;
+min-width: 5%;
+max-width: 10%;
+height: auto;
+min-height: 100%;
+margin: 0% 14% 0% 0%;
+}
+/**/
